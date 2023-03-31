@@ -1,1 +1,17 @@
-<p>server works!</p>
+<div class="container mt-2">
+    <p>server works!</p>
+    <div class="d-flex justify-content-center">
+        <input type="text" placeholder="Enter some text here..." (input)="onChange($event)">
+    </div>
+    <p>You have entered : {{name}}</p>
+    <input #box>
+    <!-- (keyup.enter)="onEnter(box.value)" -->
+    <button (click)="onEnter(box.value)">
+        Go
+    </button>
+    <p *ngIf="show">{{value}}</p>
+    <p *ngIf="error">Enter atleast 4 characters</p>
+    <div class="d-flex justify-content-center">
+        <a routerLink="/" class="btn d-block btn-primary w-25">Go to Home</a>
+    </div>
+</div>
