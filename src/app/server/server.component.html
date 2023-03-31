@@ -12,6 +12,6 @@
     <p *ngIf="show">{{value}}</p>
     <p *ngIf="error">Enter atleast 4 characters</p>
     <div class="d-flex justify-content-center">
-        <a routerLink="/" class="btn d-block btn-primary w-25">Go to Home</a>
+        <a [routerLink]="['/']" class="btn d-block btn-primary w-25">Go to Home</a>
     </div>
 </div>
