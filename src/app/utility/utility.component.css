@@ -1,0 +1,6 @@
+.textarea-class {
+    resize: none;
+    overflow: auto;
+    min-height: 100px;
+    max-height: 800px;
+}

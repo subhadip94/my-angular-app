@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12 my-4">
+            <textarea #box class="form-control" placeholder="Enter some text here..."></textarea>
+            <!-- (keyup.enter)="onEnter(box.value)" -->
+            <div class="d-flex justify-content-center">
+                <button (click)="capital_letter(box.value)" class="form-control mt-2 btn btn-primary">
+                    Go
+                </button>
+            </div>
+        </div>
+        <div class="col-12 my-4">
+            <p>
+                Your entered text in capital case :
+            </p>
+            <textarea class="form-control textarea-class" placeholder="Converted text will be shown here..." elastic>
+                {{str}}
+            </textarea>
+        </div>
+        <div class="col-12 my-4">
+            <p>
+                Your entered text in upper case :
+            </p>
+            <textarea class="form-control textarea-class" placeholder="Converted text will be shown here..." elastic>
+                {{upperStr}}
+            </textarea>
+        </div>
+    </div>
+</div>

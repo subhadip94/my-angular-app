@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 960px;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+}
+
+.samsung {
+    min-width: 960px;
+    background-image: url("http://www.samsung.com/us/explore/galaxy-s7-features-and-specs/dist/assets/img/nav/logo.png");
+    display: block;
+    width: 100%;
+    height: 80px;
+    padding: 16px;
+    text-align: right;
+    background-color: black;
+    background-size: auto 30px;
+    background-repeat: no-repeat;
+    background-position: 16px;
+    position: relative;
+    z-index: 100;
+}
+
+.samsung>a {
+    display: inline-block;
+    margin: 8px 0 0 0;
+    padding: 8px;
+    color: white;
+    font-size: 75%;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.S7information{
+    min-height: calc(100vh - 50px);
+    background-color: black;
+}
+
+.S7information>div>a {
+    text-decoration: none;
+    color: white;
+}
+
+.water-resistant {
+    display: block;
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 16px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.water-resistant>.header {
+    background-color: black;
+    color: white;
+    font-size: 250%;
+}
+
+.water-resistant>span {
+    display: block;
+    background-color: black;
+    color: white;
+}
+
+.storage {
+    display: block;
+    width: 100%;
+    margin: 40px 0 0 0;
+    padding: 16px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.storage>.header {
+    background-color: black;
+    color: white;
+    font-size: 250%;
+}
+
+.storage>span {
+    display: block;
+    background-color: black;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.design {
+    display: block;
+    width: 100%;
+    margin: 40px 0 0 0;
+    padding: 16px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.design>.header {
+    background-color: black;
+    color: white;
+    font-size: 250%;
+}
+
+.design>span {
+    display: block;
+    background-color: black;
+    color: white;
+}
+
+.camera {
+    display: block;
+    width: 100%;
+    margin: 40px 0 0 0;
+    padding: 16px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.camera>.header {
+    background-color: black;
+    color: white;
+    font-size: 250%;
+}
+
+.camera>span {
+    display: block;
+    background-color: black;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.battery {
+    display: block;
+    width: 100%;
+    margin: 40px 0 0 0;
+    padding: 16px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.battery>.header {
+    background-color: black;
+    color: white;
+    font-size: 250%;
+}
+
+.battery>.b2 {
+    display: block;
+    background-color: black;
+    color: white;
+}
+
+.battery>.b2>a {
+    background-color: black;
+    text-decoration: none;
+    color: white;
+}
+
+.os {
+    display: block;
+    width: 100%;
+    margin: 40px 0 0 0;
+    padding: 16px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.os>.header {
+    background-color: black;
+    color: white;
+    font-size: 250%;
+}
+
+.os>span {
+    display: block;
+    background-color: black;
+    color: white;
+}
+
+.samsung-pay {
+    display: block;
+    width: 100%;
+    margin: 40px 0 0 0;
+    padding: 16px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.samsung-pay>.header {
+    background-color: black;
+    color: white;
+    font-size: 250%;
+}
+
+.samsung-pay>.sp2>a {
+    background-color: black;
+    text-decoration: none;
+    color: white;
+}
+
+.android {
+    min-width: 960px;
+    background-image: url("https://www.android.com/intl/en_us/new/images/logos-2x/android-wordmark-8EC047.png");
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.15);
+}
+
+.android {
+    display: block;
+    width: 100%;
+    height: 80px;
+    padding: 16px;
+    text-align: right;
+}
+
+.android {
+    background-color: white;
+    background-size: auto 30px;
+    background-repeat: no-repeat;
+    background-position: 16px;
+}
+
+.android {
+    position: relative;
+    z-index: 100;
+}
+
+.android>a {
+    display: inline-block;
+    padding: 16px;
+    color: grey;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.learn {
+    display: inline-block;
+    width: 100%;
+    margin: 10px 0 0 0;
+    padding: 16px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.learn>.title {
+    margin: 24px;
+    color: white;
+    font-weight: normal;
+}
+
+.learn>.card {
+    display: inline-block;
+    width: 25%;
+    height: 480px;
+    margin: 16px;
+    vertical-align: top;
+    background-color: white;
+}
+
+.learn>.card {
+    border: 1px solid black;
+    border-color: lightgrey;
+    border-radius: 3px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.35);
+}
+
+.learn>.card>img {
+    display: block;
+    width: 100%;
+}
+
+.learn>.card>span:nth-of-type(1) {
+    display: block;
+    padding: 24px;
+    color: black;
+    font-size: 19px;
+    text-align: left;
+}
+
+.learn>.card>span:nth-of-type(2) {
+    display: block;
+    padding: 0 24px;
+    color: dimgrey;
+    text-align: left;
+}
+
+.learn>.card>a {
+    color: green;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.learn>.card {
+    position: relative;
+}
+
+.learn>.card>a {
+    position: absolute;
+    bottom: 20px;
+    left: 24px;
+}
+
+.showroom {
+    font-size: 3em;
+    font-family: sans-serif;
+    padding: 16px;
+    text-align: center;
+}
+
+.showroom>.header {
+    margin-bottom: 16px;
+}
+
+video {
+    max-width: 1280px;
+}
